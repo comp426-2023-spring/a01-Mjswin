@@ -16,7 +16,7 @@ fs.readFile('./public/index.html', 'utf8', (err, data) => {
 // If there is an error, put it on the console error and return. 
 // Do not be nice about exiting.
     if (err) {
-    console.log("error");
+    console.error(err);
     return;
     }
 // Define a const `server` as an arrow function using http.createServer. 
